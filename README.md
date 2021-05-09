@@ -1,5 +1,7 @@
 # p5-javascript-webserver: How to make a stupid-thing
 
+![How To make a stupid thing](./images/banner.png)
+
 Demonstration of a webserver serving a p5.js enabled webpage from an ESP8266 microcontroller.
 
 **R. Lloyd**. Lincoln. May 2021.
