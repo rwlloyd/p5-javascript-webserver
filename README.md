@@ -8,14 +8,18 @@ Demonstration of a webserver serving a p5.js enabled webpage from an ESP8266 mic
 
 ---
 
-There's something i've always wondered about this 'internet of things', 'thing'. How do you make one of these Things? What goes into them? I've used open source firmwares like [Tasmota](https://tasmota.github.io/docs/) on a [Sonoff Device](https://sonoff.tech/products/) for home automation and those things are basically an esp8266 and a mains relay. What we'll mainly be talking about here is the interface to things. There might be a sensor or servo here and there, but i'm more wanting to know about the UI for normal people and the websocket server backend so we're ready for the computer scientisets.
+There's something i've always wondered about this 'internet of things', 'thing'. How do you make one of these Things? What goes into them? I've used open source firmwares like [Tasmota](https://tasmota.github.io/docs/) on a [Sonoff Device](https://sonoff.tech/products/) for home automation and those things are basically an esp8266 and a mains relay. What we'll mainly be talking about here is the interface to things. There might be a sensor or servo here and there, but i'm more wanting to know about the UI for normal people and the websocket server backend so we're ready for the computer scientists.
 
 Well, here I am to share what I learn on this rambling journey into the Thingiv... dammit, that's taken... into the World of the Things... yeah, it's not as good.
+
+(Hello, Future Rob here. It's sunday and I don't want to reformat the whole thing, so this document has two sections. I'd suggest at least reading through and following the install steps from the  tutorial I copied out the stepos for, that should set you up for the fun stuff at the end).
 
 # Lets see how other people suggest doing it....
 ## The World of the Things
 
-First of all, I'm going to look at this tutorial, because it's using bootstrap as the css and js bit... so I should get the gist of it for when I want to use p5.js and do some sort of cool trippy graphics shit too.. that's a point, what other libraries can you serve? Oh yeah, most importantly, this is all based on the esp8266. Hopefully using SPIFFS... i don't know, I've not got that far yet... I should also say at this point, If you haven't installed the Arduino IDE, you'll need to do that and I'd suggest google is your friend throughout this whole process.
+First of all, I'm going to look at this tutorial, because it's using bootstrap as the css and js bit... so I should get the gist of it for when I want to use p5.js and do some sort of cool trippy graphics shit too.. that's a point, what other libraries can you serve? Oh yeah, most importantly, this is all based on the [esp8266](https://tttapa.github.io/ESP8266/Chap01%20-%20ESP8266.html). Hopefully using [SPIFFS](https://tttapa.github.io/ESP8266/Chap11%20-%20SPIFFS.html)... i don't know, I've not got that far yet... I should also say at this point, If you haven't installed the [Arduino IDE](https://www.arduino.cc/en/software), you'll need to do that and I'd suggest google is your friend throughout this whole process.
+
+First tutorial I looked at:
 
 [How to create a beautiful Web Interface for projects ESP8266 / ESP32 with Bootstrap](https://diyprojects.io/bootstrap-create-beautiful-web-interface-projects-esp8266/#.YJG5IqEo-Uk)
 
